@@ -2,6 +2,9 @@
 //when res is dc'd from GND V = 5
 //when res is dc'd from POS V = 0
 //normal behavior is V = 2.5
+
+#include <Arduino.h>
+
 int testPoint = A0;
 
 void setup() {
